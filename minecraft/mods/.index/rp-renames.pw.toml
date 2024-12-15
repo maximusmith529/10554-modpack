@@ -1,0 +1,16 @@
+filename = 'RPRenames-1.20.4-0.9.1.jar'
+name = 'RP Renames'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '004edd0fdb1bf25693640b5d59de4480dca4f987e771272e71d06a11bebd4292a8b4e8c1d2ccad6ca0c59ddbe3151172d65c3b0e1d39c3553f2e19ffd8334e76'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hvqcuDMT/versions/Mxtfnssi/RPRenames-1.20.4-0.9.1.jar'
+
+[update.modrinth]
+mod-id = 'hvqcuDMT'
+version = 'Mxtfnssi'

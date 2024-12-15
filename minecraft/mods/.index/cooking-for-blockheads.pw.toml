@@ -1,0 +1,16 @@
+filename = 'cookingforblockheads-fabric-1.20.1-16.0.9.jar'
+name = 'Cooking for Blockheads'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0ea0de7d459c748901a0b287ac564f38510f1aa204a65932e35058f006b541663c0df696a5fc473ae593dcdfd23077b0ea413435165baf379dfe98332bb2862a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vJnhuDde/versions/hqrfEWHR/cookingforblockheads-fabric-1.20.1-16.0.9.jar'
+
+[update.modrinth]
+mod-id = 'vJnhuDde'
+version = 'hqrfEWHR'

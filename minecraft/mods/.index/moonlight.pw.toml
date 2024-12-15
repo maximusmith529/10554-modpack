@@ -1,0 +1,16 @@
+filename = 'moonlight-1.20-2.13.2-fabric.jar'
+name = 'Moonlight Lib'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '509e2be2f6033c3b0986eeebd08ad569ad6968af2ca482ecb7d5c38f1bd9c2b6097b655da6eeacf1d24519ccc82170c1868316ff2f2aab4116fed35ec2336803'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/twkfQtEc/versions/I4H735DP/moonlight-1.20-2.13.2-fabric.jar'
+
+[update.modrinth]
+mod-id = 'twkfQtEc'
+version = 'I4H735DP'

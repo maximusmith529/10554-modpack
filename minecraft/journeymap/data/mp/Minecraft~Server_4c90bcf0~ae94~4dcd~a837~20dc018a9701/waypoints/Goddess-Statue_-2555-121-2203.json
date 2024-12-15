@@ -1,0 +1,22 @@
+{
+  "id": "Goddess-Statue_-2555-121-2203",
+  "name": "Goddess Statue",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--8526047-waypoint-icon.png",
+  "x": -2555,
+  "y": 121,
+  "z": -2203,
+  "r": 125,
+  "g": 231,
+  "b": 33,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

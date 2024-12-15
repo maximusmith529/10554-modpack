@@ -1,0 +1,16 @@
+filename = 'farmers_addons-mc1.20.1-v2.2.jar'
+name = "Farmer's Addons"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6b085defd66a271ca1a22d29cc055f297099180ce0a5c473f042f4052c20e9e6a53a3b45563579f8e25d26c437b6d2747ce8688aa03eb4fbbdd1ffc7e0ba8bcd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GgIopVQw/versions/wSWNGrm5/farmers_addons-mc1.20.1-v2.2.jar'
+
+[update.modrinth]
+mod-id = 'GgIopVQw'
+version = 'wSWNGrm5'

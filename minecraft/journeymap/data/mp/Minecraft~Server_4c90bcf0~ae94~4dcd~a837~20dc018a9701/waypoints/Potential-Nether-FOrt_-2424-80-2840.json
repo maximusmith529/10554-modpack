@@ -1,0 +1,22 @@
+{
+  "id": "Potential-Nether-FOrt_-2424-80-2840",
+  "name": "Potential Nether FOrt",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--12256046-waypoint-icon.png",
+  "x": -2424,
+  "y": 80,
+  "z": -2840,
+  "r": 68,
+  "g": 252,
+  "b": 210,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

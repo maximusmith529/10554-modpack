@@ -1,0 +1,11 @@
+{
+  "waila:core": true,
+  "waila:vanilla": true,
+  "waila:harvest": true,
+  "waila:extra": true,
+  "waila:fabric": true,
+  "waila:team_reborn_energy": true,
+  "waila:test": false,
+  "ubesdelight:plugin": true,
+  "cookingforblockheads:wthit": true
+}

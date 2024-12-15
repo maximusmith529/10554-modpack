@@ -1,0 +1,16 @@
+filename = 'Loqui-0.2.0.jar'
+name = 'Loqui'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2aa2329d4c26c7c28a57333af9af229f5eb2881655c12dfcb87410e0bdb03e72eda7dc52c1ea543f9803491e71a596e2f30e1b430389669d61cf0ff8d0083432'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cMpxLYTx/versions/rOcGnAeK/Loqui-0.2.0.jar'
+
+[update.modrinth]
+mod-id = 'cMpxLYTx'
+version = 'rOcGnAeK'

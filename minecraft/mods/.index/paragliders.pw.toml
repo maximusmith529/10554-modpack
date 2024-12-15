@@ -1,0 +1,16 @@
+filename = 'Paraglider-fabric-20.1.3.jar'
+name = 'Paragliders'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a340fde2029b871c77aac638e0956ba33fb44b9d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5046071
+project-id = 289240

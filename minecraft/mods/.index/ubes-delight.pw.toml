@@ -1,0 +1,16 @@
+filename = 'ubesdelight-fabric-1.20.1-0.2.3.jar'
+name = "Ube's Delight"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'eb5375b4c0c86c118f9e1a3110cbde3df9fc196a49b17a36b524daf1e06355ecbc69cb9a348741656cc953b21d0c2fa19361877be41df3cf3655f97f7cbb9910'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PYjpoAys/versions/c2ubCIDG/ubesdelight-fabric-1.20.1-0.2.3.jar'
+
+[update.modrinth]
+mod-id = 'PYjpoAys'
+version = 'c2ubCIDG'

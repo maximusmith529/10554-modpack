@@ -1,0 +1,1028 @@
+[12:34:55] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.5
+[12:34:55] [ForkJoinPool-1-worker-2/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 26 column 4
+- Unsupported root entry "" at line 26 column 92
+- Unsupported root entry "" at line 28 column 4
+- Unsupported root entry "" at line 28 column 24
+[12:34:55] [ForkJoinPool-1-worker-6/WARN]: Mod creategoggles uses the version 0.5.5.g which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'g'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[12:34:55] [ForkJoinPool-1-worker-6/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[12:34:55] [ForkJoinPool-1-worker-11/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[12:34:55] [ForkJoinPool-1-worker-12/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 27 column 4
+- Unsupported root entry "" at line 27 column 198
+- Unsupported root entry "" at line 29 column 4
+- Unsupported root entry "" at line 29 column 24
+[12:34:55] [main/WARN]: Warnings were found!
+ - Mod 'Create Enchantment Industry' (create_enchantment_industry) 1.2.16 recommends version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create), but only the wrong version is present: 0.5.1-f-build.1417+mc1.20.1!
+	 - You should install version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create) for the optimal experience.
+ - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
+	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
+ - Mod 'LambDynamicLights' (lambdynlights) 2.3.2+1.20.1 recommends version 0.19.1 or later of quilt_loader, which is missing!
+	 - You should install version 0.19.1 or later of quilt_loader for the optimal experience.
+[12:34:55] [main/INFO]: Loading 310 mods:
+	- adaptive-tooltips 1.3.0
+	- advancementinfo 1.20-fabric0.83.0-1.4
+	- advancementplaques 1.6.7
+	- ambientsounds 6.1.1
+	- amendments 1.20-1.2.11
+	- another_furniture 1.20.1-3.0.1
+	- antighost 1.20-fabric0.83.0-1.1.5
+	   \-- crowdin-translate 1.4+1.19.3
+	- appleskin 2.5.1+mc1.20
+	- architectury 9.2.14
+	- badpackets 0.4.3
+	- balm-fabric 7.3.9
+	   \-- kuma_api 20.1.8
+	- beansbackpacks 2.0.2
+	- betterdungeons 1.20-Fabric-4.0.4
+	   \-- org_reflections_reflections 0.10.2
+	- betterf3 7.0.2
+	- betterstats 3.12.6+fabric-1.20.1
+	- betterstrongholds 1.20-Fabric-4.0.3
+	- betterwitchhuts 1.20-Fabric-3.0.3
+	- bewitchment 1.20-10
+	   |-- impersonate 2.10.3
+	   |    \-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- playerabilitylib 1.8.0
+	   |-- reach-entity-attributes 2.4.0
+	   |-- step-height-entity-attribute 1.2.0
+	   \-- terraform-wood-api-v1 7.0.3
+	- blur 3.1.0
+	   \-- satin 1.13.0
+	- bobby 5.0.1
+	   |-- com_typesafe_config 1.4.2
+	   |-- io_leangen_geantyref_geantyref 1.3.13
+	   |-- org_spongepowered_configurate-core 4.1.2
+	   \-- org_spongepowered_configurate-hocon 4.1.2
+	- bountiful 6.0.4+1.20.1
+	- capes 1.5.2+1.20
+	- cardinal-components 5.2.2
+	   |-- cardinal-components-base 5.2.2
+	   |-- cardinal-components-block 5.2.2
+	   |-- cardinal-components-chunk 5.2.2
+	   |-- cardinal-components-entity 5.2.2
+	   |-- cardinal-components-item 5.2.2
+	   |-- cardinal-components-level 5.2.2
+	   |-- cardinal-components-scoreboard 5.2.2
+	   \-- cardinal-components-world 5.2.2
+	- chat_heads 0.13.3
+	- citresewn 1.1.5+1.20.1
+	   \-- citresewn-defaults 1.1.5+1.20.1
+	- clickthrough 1.20-fabric0.83.0-0.4.1
+	   |-- crowdin-translate 1.4+1.19.3
+	   \-- gbfabrictools 1.4+1.20
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- continuity 3.0.0-beta.5+1.20.1
+	- cookingforblockheads 16.0.9
+	- craterlib 2.1.0
+	- create 0.5.1-f-build.1417+mc1.20.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.10-2
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_brewing 2.3.2+1.20.1
+	   |-- porting_lib_client_events 2.3.2+1.20.1
+	   |-- porting_lib_models 2.3.2+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.2+1.20.1
+	   |-- porting_lib_obj_loader 2.3.2+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.2+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.62-MC1.20.1
+	        |-- porting_lib_data 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- create_enchantment_industry 1.2.16
+	   \-- create_dragon_lib 1.4.2
+	- create_structures 1.1.0
+	- createaddition 1.2.4
+	   \-- team_reborn_energy 2.3.0
+	- createbigcannons 5.5.1+mc.1.20.1-fabric
+	   \-- ritchiesprojectilelib 2.0.0-dev+mc.1.20.1-fabric-build.182
+	        \-- porting_lib_utility 2.1.1127+1.20
+	             \-- porting_lib_gametest 2.1.1127+1.20
+	- createdeco 2.0.2-1.20.1-fabric
+	- creategoggles 0.5.5.g
+	- creativecore 2.12.14
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- cull-less-leaves 1.3.0
+	- dark-loading-screen 1.6.14
+	- debugify 1.20.1+2.0
+	- dynamic_fps 3.7.3
+	   \-- net_lostluma_battery 1.1.0
+	- emotecraft 2.2.7-b.build.50
+	   |-- bendy-lib 4.0.0
+	   \-- player-animator 1.0.2-rc1+1.20
+	- enhancedblockentities 0.9+1.20
+	   |-- advanced_runtime_resource_pack 0.6.7
+	   \-- spruceui 5.0.0+1.20
+	- entity_model_features 2.2.6
+	- entity_texture_features 6.2.5
+	   \-- org_apache_httpcomponents_httpmime 4.5.10
+	- entityculling 1.7.0
+	- fabric-api 0.92.2+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.12.2+kotlin.2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.2
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.2
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.2
+	- fabricloader 0.16.5
+	   \-- mixinextras 0.4.1
+	- fabrishot 1.10.1
+	- fancymenu 3.2.3
+	   |-- com_github_keksuccino_japng 0.5.3
+	   \-- com_github_rtyley_animated-gif-lib-for-java animated-gif-lib-1.7
+	- farmaddon 2.2
+	- farmersdelight 1.20.1-2.2.4+refabricated
+	   |-- mm 2.3
+	   |-- porting_lib_accessors 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_base 2.3.8+1.20.1
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_entity 2.3.8+1.20.1
+	   |    |-- porting_lib_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    |-- porting_lib_gui_utils 2.3.8+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_transfer 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_config 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_lazy_registration 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_loot 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_networking 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_recipe_book_categories 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   \-- porting_lib_tool_actions 2.3.8+1.20.1
+	        \-- porting_lib_core 2.3.8+1.20.1
+	- farmersrespite 3.0.2
+	- fastquit 3.0.0+1.20+
+	- feytweaks 1.20-1.2.7
+	- forgeconfigapiport 8.0.0
+	- geophilic 3.1.3
+	- glitchcore 0.0.1.1
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- iceberg 1.1.18
+	- immediatelyfast 1.2.21+1.20.4
+	   \-- net_lenni0451_reflect 1.3.4
+	- indium 1.0.34+mc1.20.1
+	- inventoryprofilesnext 1.10.10
+	- iris 1.7.2+mc1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- io_github_douira_glsl-transformer 2.0.1
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.13.1
+	- java 17
+	- jei 15.20.0.101
+	- journeymap 5.10.2
+	   \-- journeymap-api-fabric 1.20-1.9-fabric-SNAPSHOT
+	- kambrik 6.1.1+1.20.1
+	- konkrete 1.8.1
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- lambdynlights 2.3.2+1.20.1
+	   |-- pride 1.2.0+1.19.4
+	   \-- spruceui 5.0.0+1.20
+	- languagereload 1.6.1+1.20.1
+	- leavesbegone 8.0.0
+	- libipn 4.0.2
+	- lithium 0.11.2
+	- loqui 0.2.0
+	- melody 1.0.3
+	- memoryleakfix 1.1.5
+	- midnightlib 1.4.1
+	- minecraft 1.20.1
+	- mod_sets 1.8.0+sha.00f0f84
+	   |-- kinecraft_serialization 1.4.1
+	   |-- preloading_tricks 1.2.1
+	   |    \-- preloading_tricks_language_adapter 1.2.1
+	   |-- settingdust_modsets_config_ 1.8.0+sha.00f0f84
+	   \-- settingdust_modsets_ingame_ 1.8.0+sha.00f0f84
+	- modmenu 7.2.2
+	- moonlight 1.20-2.13.2
+	- mousetweaks 2.26
+	- mr_dungeons_andtaverns 3.0.3.f
+	- nochatreports 1.20.1-v2.2.2
+	- notenoughanimations 1.7.6
+	- paraglider 20.1.3
+	- patchouli 1.20.1-84-FABRIC
+	   \-- fiber 0.23.0-2
+	- pehkui 3.8.3+1.14.4-1.21
+	   \-- kanos_config 0.4.1+1.14.4-1.19.4
+	- presencefootsteps 1.9.4+1.20.1
+	   \-- kirin 1.15.6+1.20.1
+	- puzzleslib 8.1.23
+	   \-- puzzlesaccessapi 8.0.7
+	- railways 1.6.4+fabric-mc1.20.1
+	   \-- mm 2.3
+	- recursiveresources 2.5.2+1.20
+	   |-- cicada 0.4.0
+	   \-- shared-resources-api 1.5.2
+	- reeses-sodium-options 1.7.2+mc1.20.1-build.101
+	- replaymod 1.20.1-2.6.19
+	- resourcify 1.4.2
+	- respitecreators 1.3.0-FDR
+	- rprenames 0.9.1
+	- sereneseasons 9.1.0.0
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- shulkerboxtooltip 4.0.4+1.20.1
+	- simplerpc 3.3.3
+	- skinlayers3d 1.6.7
+	- sliceanddice 3.3.1
+	- sodium 0.5.11+mc1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   \-- fabric-resource-loader-v0 0.11.10+1802ada577
+	- sodium-extra 0.5.4+mc1.20.1-build.115
+	   |-- caffeineconfig 1.3.0+1.17
+	   \-- crowdin-translate 1.4+1.19.3
+	- spark 1.10.53
+	- spiceoffabric 1.6.2+mc1.20.1
+	   |-- capsaicin 1.3.3+mc1.20.1
+	   |-- coat 1.0.0-beta.20+mc1.20-pre1
+	   |-- tweed4_annotated 1.3.1+mc1.20-pre1
+	   |-- tweed4_base 1.7.1+mc1.20-pre1
+	   |-- tweed4_data 1.2.1+mc1.20-pre1
+	   |-- tweed4_data_hjson 1.1.1+mc1.20-pre1
+	   |-- tweed4_tailor_coat 1.1.3+mc1.20-pre1
+	   |-- tweed4_tailor_lang_json_descriptions 1.1.0+mc1.20-pre1
+	   \-- tweed4_tailor_screen 1.1.4+mc1.20-pre1
+	- supplementaries 1.20-2.8.17
+	   \-- mixinsquared 0.1.1
+	- tcdcommons 3.12.3+fabric-1.20.1
+	- toughasnails 9.2.0.171
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- trinkets 3.7.2
+	- ubesdelight 0.2.3
+	   \-- porting_lib_registries 2.3.4+1.20.1
+	- valkyrien_mod 0.1.1
+	   |-- elementa 649
+	   |-- universalcraft 323
+	   \-- valkyrien_ship_schematics 1.0
+	- valkyrienskies 2.3.0-beta.5
+	- visuality 0.7.1+1.20
+	- voicechat 1.20.1-2.5.22
+	- vs_clockwork 1.20.1-0.1.16-fabric-b3b22e39fe
+	- vs_eureka 1.5.1-beta.3
+	- vt_downloader 2.0.8+1.20.1
+	- wthit 8.15.2
+	- yet_another_config_lib_v3 3.5.0+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.10.0
+	   |-- com_twelvemonkeys_common_common-io 3.10.0
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yungsapi 1.20-Fabric-4.0.6
+	   \-- org_javassist_javassist 3.29.2-GA
+	- yungsbridges 1.20-Fabric-4.0.3
+	- yungsextras 1.20-Fabric-4.0.3
+	- zoomify 2.14.0+1.20.1
+	   \-- com_akuleshov7_ktoml-core-jvm 0.5.1
+[12:35:04] [main/WARN]: [PreloadingTricks/LanguageAdapter] Errors when loading preloading tricks may be intended since the implementations may targeting multiple mod loaders
+[12:35:04] [main/INFO]: [PreloadingTricks/LanguageAdapter] Loading settingdust.preloadingtricks.fabric.FabricLanguageProviderCallback
+[12:35:04] [main/INFO]: [PreloadingTricks/LanguageAdapter] Loading settingdust.preloadingtricks.quilt.QuiltLanguageProviderCallback
+[12:35:04] [main/ERROR]: [PreloadingTricks/LanguageAdapter] Loading settingdust.preloadingtricks.quilt.QuiltLanguageProviderCallback failed: java.lang.ClassNotFoundException: org.quiltmc.loader.impl.QuiltLoaderImpl
+[12:35:04] [main/ERROR]: [PreloadingTricks/LanguageAdapter] Load service of settingdust.preloadingtricks.LanguageProviderCallback failed: java.lang.UnsupportedClassVersionError: settingdust/preloadingtricks/neoforge/fml/FMLLanguageProviderCallback has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+[12:35:04] [main/INFO]: [PreloadingTricks/LanguageAdapter] Loading settingdust.preloadingtricks.forge.fml.FMLLanguageProviderCallback
+[12:35:04] [main/ERROR]: [PreloadingTricks/LanguageAdapter] Loading settingdust.preloadingtricks.forge.fml.FMLLanguageProviderCallback failed: java.lang.ClassNotFoundException: net.minecraftforge.fml.loading.FMLLoader
+[12:35:04] [main/INFO]: [PreloadingTricks/LanguageAdapter] Loading settingdust.preloadingtricks.forge.fml40.FML40LanguageProviderCallback
+[12:35:04] [main/ERROR]: [PreloadingTricks/LanguageAdapter] Loading settingdust.preloadingtricks.forge.fml40.FML40LanguageProviderCallback failed: java.lang.ClassNotFoundException: net.minecraftforge.fml.loading.FMLLoader
+[12:35:04] [main/INFO]: [PreloadingTricks/ModSetup] Loading settingdust.modsets.fabric.FabricSetupModCallback
+[12:35:04] [main/INFO]: Loading mods from 1 sub folders in mods
+[12:35:04] [ForkJoinPool-2-worker-6/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 26 column 4
+- Unsupported root entry "" at line 26 column 92
+- Unsupported root entry "" at line 28 column 4
+- Unsupported root entry "" at line 28 column 24
+[12:35:04] [ForkJoinPool-2-worker-11/WARN]: Mod creategoggles uses the version 0.5.5.g which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'g'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[12:35:04] [ForkJoinPool-2-worker-6/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[12:35:04] [ForkJoinPool-2-worker-6/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[12:35:04] [ForkJoinPool-2-worker-9/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 27 column 4
+- Unsupported root entry "" at line 27 column 198
+- Unsupported root entry "" at line 29 column 4
+- Unsupported root entry "" at line 29 column 24
+[12:35:04] [main/WARN]: Warnings were found!
+ - Mod 'Create Enchantment Industry' (create_enchantment_industry) 1.2.16 recommends version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create), but only the wrong version is present: 0.5.1-f-build.1417+mc1.20.1!
+	 - You should install version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create) for the optimal experience.
+ - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
+	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
+ - Mod 'LambDynamicLights' (lambdynlights) 2.3.2+1.20.1 recommends version 0.19.1 or later of quilt_loader, which is missing!
+	 - You should install version 0.19.1 or later of quilt_loader for the optimal experience.
+[12:35:04] [main/INFO]: Loading 0 additional mods:
+[12:35:04] [main/INFO]: [PreloadingTricks/ModSetup] Loading settingdust.modsets.quilt.QuiltSetupModCallback
+[12:35:04] [main/ERROR]: [PreloadingTricks/ModSetup] Loading settingdust.modsets.quilt.QuiltSetupModCallback failed: java.lang.ClassNotFoundException: org.quiltmc.loader.api.plugin.ModContainerExt
+[12:35:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/maxim/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[12:35:05] [main/INFO]: Compatibility level set to JAVA_17
+[12:35:05] [main/WARN]: Reference map 'createdeco-fabric-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:35:05] [main/INFO]: Preloading Debugify
+[12:35:05] [main/WARN]: Reference map 'de-guntram-mcmod-fabrictools-refmap.json' for mixins.de-guntram-mcmod-fabrictools.json could not be read. If this is a development environment you can ignore this message
+[12:35:05] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[12:35:05] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:35:05] [main/WARN]: Reference map 'mixins.nonmmlauncher.replaymod.refmap.json' for mixins.nonmmlauncher.replaymod.json could not be read. If this is a development environment you can ignore this message
+[12:35:05] [main/WARN]: [Satin] Iris is present, custom block renders will not work
+[12:35:05] [main/WARN]: Reference map 'shared-resources-api-refmap.json' for shared-resources-api.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:35:05] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[12:35:06] [main/INFO]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
+[12:35:06] [main/WARN]: Reference map 'clockwork-fabric-refmap.json' for vs_clockwork.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:35:06] [main/WARN]: Reference map 'eureka-1201-fabric-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:35:06] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:35:06] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:35:06] [main/WARN]: Error loading class: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext (java.lang.ClassNotFoundException: io/vram/frex/base/renderer/context/render/EntityBlockRenderContext)
+[12:35:06] [main/WARN]: @Mixin target io.vram.frex.base.renderer.context.render.EntityBlockRenderContext was not found porting_lib_base.mixins.json:client.frex.EntityBlockRenderContextMixin from mod porting_lib_base
+[12:35:06] [main/WARN]: Force disabled MC-121772 because it only applies to OS: MAC
+[12:35:06] [main/WARN]: Force disabled MC-122477 because it only applies to OS: LINUX
+[12:35:06] [main/WARN]: Force disabled MC-176559 because it's conflicting with: fabric-api
+[12:35:06] [main/WARN]: Force disabled MC-22882 because it only applies to OS: MAC
+[12:35:07] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[12:35:07] [main/WARN]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev/latvian/mods/kubejs/recipe/RecipesEventJS)
+[12:35:07] [main/WARN]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin from mod sliceanddice
+[12:35:07] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[12:35:07] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[12:35:07] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[12:35:07] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[12:35:07] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[12:35:07] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[12:35:07] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[12:35:07] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[12:35:07] [main/WARN]: Error loading class: com/sonicether/soundphysics/SoundPhysics (java.lang.ClassNotFoundException: com/sonicether/soundphysics/SoundPhysics)
+[12:35:07] [main/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
+[12:35:07] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[12:35:07] [main/WARN]: Error loading class: net/optifine/render/ChunkVisibility (java.lang.ClassNotFoundException: net/optifine/render/ChunkVisibility)
+[12:35:07] [main/WARN]: Error loading class: shadersmod/client/ShadersRender (java.lang.ClassNotFoundException: shadersmod/client/ShadersRender)
+[12:35:07] [main/WARN]: Error loading class: net/optifine/shaders/ShadersRender (java.lang.ClassNotFoundException: net/optifine/shaders/ShadersRender)
+[12:35:07] [main/WARN]: Error loading class: net/coderbot/iris/pipeline/HandRenderer (java.lang.ClassNotFoundException: net/coderbot/iris/pipeline/HandRenderer)
+[12:35:08] [main/INFO]: I used the json to destroy the json
+[12:35:08] [main/INFO]: What if I was I robot and didn’t know it?
+[12:35:08] [main/INFO]: Indexed adaptivetooltips from AdaptiveTooltips-1.3.0-fabric-1.20.2.jar with existing locales of: [ru_ru, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 7200 bytes.
+[12:35:08] [main/INFO]: Indexed advancementinfo from advancementinfo-1.20-fabric0.83.0-1.4.jar with existing locales of: [zh_cn, tt_ru, zh_tw, pt_br, ru_ru, uk_ua, ja_jp]
+[12:35:08] [main/INFO]: en_us.json size: 1030 bytes.
+[12:35:08] [main/INFO]: Indexed amendments from amendments-1.20-1.2.11-fabric.jar with existing locales of: [es_es, es_mx, fr_fr, ja_jp, ko_kr, ru_ru, tok, uk_ua, vi_vn, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 4386 bytes.
+[12:35:08] [main/INFO]: Indexed another_furniture from another_furniture-fabric-1.20.1-3.0.1.jar with existing locales of: [zh_cn, vi_vn, uk_ua, tr_tr, ru_ru, pt_br, ko_kr, ja_jp, es_es, cs_cz]
+[12:35:08] [main/INFO]: en_us.json size: 12212 bytes.
+[12:35:08] [main/INFO]: Indexed antighost from antighost-1.20-fabric0.83.0-1.1.5.jar with existing locales of: [ko_kr, de_ch, pl_pl, id_id, zh_cn, no_no, be_by, el_gr, nl_be, es_ve, sv_se, zh_tw, et_ee, pt_pt, es_es, es_mx, fr_fr, pt_br, cs_cz, hu_hu, it_it, he_il, tr_tr, sr_sp, ru_ru, es_uy, ro_ro, es_ec, uk_ua, nn_no, es_ar, fr_ca, de_de, fi_fi, nl_nl, vi_vn, es_cl, zh_hk, de_at, ja_jp]
+[12:35:08] [main/INFO]: en_us.json size: 148 bytes.
+[12:35:08] [main/INFO]: Indexed appleskin from appleskin-fabric-mc1.20.1-2.5.1.jar with existing locales of: [hy_am, ru_ru, uk_ua, pl_pl, ko_kr, zh_cn, fr_fr, tr_TR, de_de, cs_cz]
+[12:35:08] [main/INFO]: en_us.json size: 2894 bytes.
+[12:35:08] [main/INFO]: Indexed beansbackpacks from BeansBackpacks-fabric-1.20.1-2.0.2.jar with existing locales of: [en_au, en_ca, en_gb, en_nz]
+[12:35:08] [main/INFO]: en_us.json size: 11914 bytes.
+[12:35:08] [main/INFO]: Indexed betterf3 from BetterF3-7.0.2-Fabric-1.20.1.jar with existing locales of: [af_za, ar_sa, ast_es, az_az, ba_ru, be_by, bg, bn, br, bs, ca_es, cs_cz, cy_gb, da_dk, de_at, de_ch, de_de, el_gr, en_au, en_ca, en_gb, en_nz, en_pt, en_ud, eo_uy, es_ar, es_cl, es_ec, es_es, es_mx, es_uy, es_ve, et_ee, eu_es, fa_ir, fi_fi, fil_ph, fo_fo, fr_ca, fr_fr, fra_de, fur, fy_nl, ga_ie, gd_gb, gl_es, haw_us, he_il, hi_in, hu_hu, hy_am, id_id, ig_ng, io_en, is_is, it_it, ja_jp, jbo_en, ka_ge, kk_kz, kn_in, ko_kr, ku, la_la, lb_lu, li_li, lol_us, lt_lt, lv_lv, mk_mk, mn_mn, ms_my, mt_mt, nds_de, nl_be, nl_nl, nn_no, no_no, oc_fr, pl_pl, pt_br, pt_pt, qya_aa, ro_ro, ru_ru, se_no, sk_sk, sl_si, so_so, sq_al, sr_sp, sv_se, ta_in, th_th, tl_ph, tlh_aa, tr_tr, tt_ru, uk_ua, val_es, vec_it, vi_vn, yi_de, yo_ng, zh_cn, zh_hk, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 12669 bytes.
+[12:35:08] [main/INFO]: Indexed betterstats from betterstats-3.12.6+fabric-1.20.1.jar with existing locales of: [ar_sa, bs_ba, de_de, es_es, fr_fr, it_it, ja_jp, ko_kr, nl_be, nl_nl, pl_pl, pt_br, ru_ru, tr_tr, tt_ru, uk_ua, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 12160 bytes.
+[12:35:08] [main/INFO]: Indexed bewitchment from bewitchment-1.20-10.jar with existing locales of: [fr_fr, ru_ru, uk_ua, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 48360 bytes.
+[12:35:08] [main/INFO]: Indexed blur from blur-3.1.0.jar with existing locales of: [zh_cn, fr_fr, uk_ua, sv_se, ru_ru, pt_br, ko_kr, en_gb, de_de]
+[12:35:08] [main/INFO]: en_us.json size: 763 bytes.
+[12:35:08] [main/INFO]: Indexed bobby from bobby-5.0.1.jar with existing locales of: [pt_br, ru_ru, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 2656 bytes.
+[12:35:08] [main/INFO]: Indexed bountiful from Bountiful-6.0.4+1.20.1-fabric.jar with existing locales of: [zh_cn, ru_ru, pt_br, ko_kr, ja_jp, it_it, fr_fr, es_em, en_pt]
+[12:35:08] [main/INFO]: en_us.json size: 3814 bytes.
+[12:35:08] [main/INFO]: Indexed capes from capes-1.5.2+1.20-fabric.jar with existing locales of: [zh_cn, zh_tw, pt_pt, pt_br, tt_ru, it_it, et_ee, fr_fr, id_id, el_gr, cs_cz, de_de, ru_ru, tr_tr]
+[12:35:08] [main/INFO]: en_us.json size: 417 bytes.
+[12:35:08] [main/INFO]: Indexed chat_heads from chat_heads-0.13.3-fabric-1.20.jar with existing locales of: [be_by, de_de, es_es, fr_fr, it_it, ja_jp, ko_kr, pt_br, ru_ru, uk_ua, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 3003 bytes.
+[12:35:08] [main/INFO]: Indexed citresewn from citresewn-1.1.5+1.20.1.jar with existing locales of: [be_by, de_de, et_ee, it_it, ko_kr, pt_br, rs_sp, ru_ru, tr_tr, tt_ru, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 1486 bytes.
+[12:35:08] [main/INFO]: Indexed clickthrough from clickthrough-1.20-fabric0.83.0-0.4.1.jar with existing locales of: [ko_kr, de_ch, pl_pl, zh_cn, no_no, no_no?, el_gr, nl_be, es_ve, sv_se, zh_tw, et_ee, pt_pt, es_es, es_mx, fr_fr, pt_br, cs_cz, it_it, he_il, tr_tr, sr_sp, ru_ru, es_uy, ro_ro, es_ec, uk_ua, nn_no, es_ar, fr_ca, de_de, fi_fi, nl_nl, es_cl, zh_hk, de_at, ja_jp]
+[12:35:08] [main/INFO]: en_us.json size: 1703 bytes.
+[12:35:08] [main/INFO]: Indexed vs_clockwork from clockwork-1.20.1-0.1.16-fabric-b3b22e39fe.jar with existing locales of: [de_de, en_pt, nl_be]
+[12:35:08] [main/INFO]: en_us.json size: 7355 bytes.
+[12:35:08] [main/INFO]: Indexed cloth-config2 from cloth-config-11.1.136-fabric.jar with existing locales of: [fr_fr, zh_hk, lol_us, ko_kr, zh_tw, it_it, bg_bg, ru_ru, et_ee, hu_hu, ja_jp, kk_kz, es_mx, de_de, en_ud, es_es, zh_cn, lzh, tt_ru, uk_ua, pt_br, sv_se]
+[12:35:08] [main/INFO]: en_us.json size: 3338 bytes.
+[12:35:08] [main/INFO]: Indexed continuity from continuity-3.0.0-beta.5+1.20.1.jar with existing locales of: [cs_cz, de_de, el_gr, et_ee, fil_ph, fr_fr, it_it, ko_kr, pl_pl, pt_br, ru_ru, uk_ua, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 917 bytes.
+[12:35:08] [main/INFO]: Indexed cookingforblockheads from cookingforblockheads-fabric-1.20.1-16.0.9.jar with existing locales of: [de_de, en_ud, es_es, fr_fr, it_it, ko_kr, nl_nl, pt_br, ru_ru, sv_se, tr_tr, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 12587 bytes.
+[12:35:08] [main/INFO]: Indexed craterlib from CraterLib-Fabric-1.20-2.1.0.jar with existing locales of: []
+[12:35:08] [main/INFO]: en_us.json size: 291 bytes.
+[12:35:08] [main/INFO]: Indexed create from create-fabric-0.5.1-f-build.1417+mc1.20.1.jar with existing locales of: [be_by, cs_cz, cy_gb, da_dk, de_de, en_ud, eo_uy, es_cl, es_es, es_mx, et_ee, fa_ir, fi_fi, fr_fr, hu_hu, id_id, is_is, it_it, ja_jp, kk_kz, ko_kr, lzh, nl_nl, no_no, pl_pl, pt_br, pt_pt, ro_ro, rpr, ru_ru, sv_se, th_th, tok, tr_tr, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 233804 bytes.
+[12:35:08] [main/INFO]: Indexed createaddition from createaddition-fabric+1.20.1-1.2.4.jar with existing locales of: [de_de, es_es, fr_fr, it_it, ja_jp, ko_kr, pt_br, ru_ru, sv_se, uk_ua, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 21539 bytes.
+[12:35:08] [main/INFO]: Indexed createbigcannons from createbigcannons-5.5.1+mc.1.20.1-fabric.jar with existing locales of: [de_de, en_ud, es_es, fr_fr, ja_jp, ko_kr, nl_nl, pl_pl, ru_ru, uk_ua, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 67041 bytes.
+[12:35:08] [main/INFO]: Indexed createdeco from createdeco-2.0.2-1.20.1-fabric.jar with existing locales of: [ru_ru, ja_jp, es_mx, en_ud, en_gb]
+[12:35:08] [main/INFO]: en_us.json size: 27056 bytes.
+[12:35:08] [main/INFO]: Indexed creategoggles from creategoggles-1.20.1-0.5.5.g-[FABRIC].jar with existing locales of: [en_ud, es_es, ko_kr, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 10947 bytes.
+[12:35:08] [main/INFO]: Indexed create_enchantment_industry from create_enchantment_industry-1.2.16.jar with existing locales of: [de_de, en_ud, es_es, fr_fr, ja_jp, ko_kr, pl_pl, ru_ru, sv_se, uk_ua, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 16117 bytes.
+[12:35:08] [main/INFO]: Indexed creativecore from CreativeCore_FABRIC_v2.12.14_mc1.20.1.jar with existing locales of: [de_de, es_es, fr_fr, ko_kr, pt_br, ru_ru, tt_ru, uk_ua, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 1388 bytes.
+[12:35:08] [main/INFO]: Indexed cull-less-leaves from CullLessLeaves-1.3.0.jar with existing locales of: [et_ee, fr_fr, it_it, ko_kr, ru_ru, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 998 bytes.
+[12:35:08] [main/INFO]: Indexed dark-loading-screen from dark-loading-screen-1.6.14.jar with existing locales of: [zh_cn, uk_ua, sv_se, ru_ru, pt_br, pl_pl, ko_kr, fr_fr, es_ve, es_uy, es_mx, es_es, es_ec, es_cl, es_ar, de_de, bg_bg]
+[12:35:08] [main/INFO]: en_us.json size: 593 bytes.
+[12:35:08] [main/INFO]: Indexed debugify from Debugify-1.20.1+2.0.jar with existing locales of: [el_gr, fr_fr, pt_br, ru_ru, tr_tr, uk_ua, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 8535 bytes.
+[12:35:08] [main/INFO]: Indexed dynamic_fps from dynamic-fps-3.7.3+minecraft-1.20.0-fabric.jar with existing locales of: [de_at, de_ch, de_de, en_pt, en_ud, enws, es_ar, es_cl, es_ec, es_es, es_mx, es_uy, es_ve, et_ee, fr_ca, fr_fr, it_it, ko_kr, lol_us, nl_nl, pl_pl, pt_br, pt_pt, ru_ru, sv_se, tr_tr, uk_ua, vi_vn, zh_cn, zh_hk, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 5510 bytes.
+[12:35:08] [main/INFO]: Indexed emotecraft from emotecraft-for-MC1.20.1-2.2.7-b.build.50-fabric.jar with existing locales of: [nl_nl, zh_cn, de_de, ko_kr, ar_sa, pt_pt, en_ud, tt_ru, sv_se, cs_cz, sr_sp, el_gr, fi_fi, ru_ru, pl_pl, en_pt, ro_ro, it_it, zh_tw, es_es, he_il, da_dk, ca_es, hu_hu, no_no, tr_tr, ja_jp, af_za, pt_br, vi_vn, lol_us, fr_fr, uk_ua]
+[12:35:08] [main/INFO]: en_us.json size: 6118 bytes.
+[12:35:08] [main/INFO]: Indexed enhancedblockentities from enhancedblockentities-0.9+1.20.jar with existing locales of: [zh_cn, ru_ru]
+[12:35:08] [main/INFO]: en_us.json size: 6949 bytes.
+[12:35:08] [main/INFO]: Indexed entityculling from entityculling-fabric-1.7.0-mc1.20.1.jar with existing locales of: [zh_tw, vi_vn, uk_ua, ru_ru, pt_br, it_it, fr_fr, es_mx]
+[12:35:08] [main/INFO]: en_us.json size: 108 bytes.
+[12:35:08] [main/INFO]: Indexed entity_model_features from entity_model_features_fabric_1.20.1-2.2.6.jar with existing locales of: [de_de, el_gr, es_mx, fr_fr, pt_br, ru_ru, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 41905 bytes.
+[12:35:08] [main/INFO]: Indexed entity_texture_features from entity_texture_features_fabric_1.20.1-6.2.5.jar with existing locales of: [en_pt, es_mx, et_ee, pt_br, ru_ru, uk_ua, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 50759 bytes.
+[12:35:08] [main/INFO]: Indexed vs_eureka from eureka-1201-1.5.1-beta.3.jar with existing locales of: [de_de, en_au, en_pt, fr-fr, ko_kr, nl_be, ru_ru, tok, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 2102 bytes.
+[12:35:08] [main/INFO]: Indexed fabrishot from fabrishot-1.10.1.jar with existing locales of: [be_by, de_de, et_ee, fi_fi, fr_fr, pt_br, ru_ru, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 918 bytes.
+[12:35:08] [main/INFO]: Indexed fancymenu from fancymenu_fabric_3.2.3_MC_1.20.1.jar with existing locales of: [fr_fr, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 129011 bytes.
+[12:35:08] [main/INFO]: Indexed farmersdelight from FarmersDelight-1.20.1-2.2.4+refabricated.jar with existing locales of: [be_by, ca_es, da_dk, de_de, en_gb, en_nz, en_pt, es_ar, es_cl, es_ec, es_es, es_mx, es_uy, es_ve, fi_fi, fr_fr, id_id, it_it, ja_jp, ko_kr, nl_be, nl_nl, no_no, pl_pl, pt_br, pt_pt, ru_ru, sk_sk, sr_sp, sv_se, tok, tr_tr, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 24917 bytes.
+[12:35:08] [main/INFO]: Indexed farmersrespite from Farmersrespite-Fabric-3.0.2.jar with existing locales of: [uk_ua]
+[12:35:08] [main/INFO]: en_us.json size: 5588 bytes.
+[12:35:08] [main/INFO]: Indexed farmaddon from farmers_addons-mc1.20.1-v2.2.jar with existing locales of: []
+[12:35:08] [main/INFO]: en_us.json size: 1135 bytes.
+[12:35:08] [main/INFO]: Indexed fastquit from fastquit-3.0.0+1.20+.jar with existing locales of: [de_de, et_ee, it_it, pl_pl, ru_ru, tr_tr, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 4092 bytes.
+[12:35:08] [main/INFO]: Indexed feytweaks from feytweaks-1.20-1.2.7.jar with existing locales of: [zh_cn, ru_ru]
+[12:35:08] [main/INFO]: en_us.json size: 1267 bytes.
+[12:35:08] [main/INFO]: Indexed forgeconfigapiport from ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar with existing locales of: [uk_ua, pt_br]
+[12:35:08] [main/INFO]: en_us.json size: 143 bytes.
+[12:35:08] [main/INFO]: Indexed inventoryprofilesnext from InventoryProfilesNext-fabric-1.20-1.10.10.jar with existing locales of: [bg_bg, de_de, fr_fr, it_it, ja_jp, ko_kr, pl_pl, pt_br, ru_ru, tr_tr, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 73163 bytes.
+[12:35:08] [main/INFO]: Indexed iris from iris-1.7.2+mc1.20.1.jar with existing locales of: [cs_cz, de_ch, de_de, en_pt, en_ud, es_ar, es_es, et_ee, fa_ir, fi_fi, fr_fr, hu_hu, it_it, ja_jp, ko_kr, lol_us, lzh, nl_nl, pl_pl, pr_pt, pt_br, ru_ru, sk_sk, th_th, tr_tr, uk_ua, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 5926 bytes.
+[12:35:08] [main/INFO]: Indexed jei from jei-1.20.1-fabric-15.20.0.101.jar with existing locales of: [ar_sa, bg_bg, cs_cz, de_de, el_gr, en_au, es_es, fi_fi, fr_fr, he_il, id_id, it_it, ja_jp, kk_kz, ko_kr, lt_lt, nb_no, pl_pl, pt_br, ru_ru, sv_se, tr_tr, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 12586 bytes.
+[12:35:08] [main/INFO]: Indexed journeymap from journeymap-1.20.1-5.10.2-fabric.jar with existing locales of: [ar_sa, ca_es, de_de, es_es, es_mx, fi_fi, fr_ca, fr_fr, hu_hu, it_it, ja_jp, ko_kr, nl_nl, no_no, pt_br, ru_ru, sv_se, uk_ua, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 55722 bytes.
+[12:35:08] [main/INFO]: Indexed lambdynlights from lambdynamiclights-2.3.2+1.20.1.jar with existing locales of: [de_de, es_mx, et_ee, fr_ca, fr_fr, hi_in, it_it, nl_nl, pl_pl, pt_br, ru_ru, sv_se, tr_tr, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 1924 bytes.
+[12:35:08] [main/INFO]: Indexed languagereload from language-reload-1.6.1+1.20.1.jar with existing locales of: [be_by, es_es, et_ee, fr_fr, it_it, ko_kr, pl_pl, pt_br, ru_ru, tt_ru, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 1081 bytes.
+[12:35:08] [main/INFO]: Indexed libipn from libIPN-fabric-1.20-4.0.2.jar with existing locales of: [ko_kr, pl_pl, pt_br, ru_ru, uk_ua, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 2482 bytes.
+[12:35:08] [main/INFO]: Indexed loqui from Loqui-0.2.0.jar with existing locales of: []
+[12:35:08] [main/INFO]: en_us.json size: 181 bytes.
+[12:35:08] [main/INFO]: Indexed midnightlib from midnightlib-fabric-1.4.1.1.jar with existing locales of: [zh_tw, tt_ru, fr_fr, pt_br, uk_ua, de_de]
+[12:35:08] [main/INFO]: en_us.json size: 862 bytes.
+[12:35:08] [main/INFO]: Indexed modmenu from modmenu-7.2.2.jar with existing locales of: [ga_ie, haw_us, es_es, ig_ng, ur-PK, fil_ph, fr_fr, en_gb, li_li, en_ud, scn, enws, eu_es, sr-Cyrl-ME, ko_kr, sr_sp, da_dk, af_za, tr_tr, nds_de, tok, hy_am, esan, sjd, sl_si, se_no, kab-KAB, ru_ru, zh_tw, ne-NP, tt_ru, de_ch, an-ES, got_de, vec_it, gv_im, dsb-DE, enp, ka_ge, qya_aa, lol_us, ba_ru, tl_ph, br_fr, kn_in, szl, me-ME, lv_lv, tzl_tzl, nn_no, hes, lt_lt, gd_gb, ca_es, tlh_aa, uz-UZ, isv, uk_ua, nah, en_pt, es_ve, lmo, ta_in, mk_mk, he_il, chn, bar, moe, cv-CU, es_cl, fr_ca, hu_hu, zh_cn, it_it, csb-PL, eo_uy, id_id, lb_lu, en_nz, hsb-DE, zh_hk, vi_vn, lzh, es_ar, ast_es, brb, pl_pl, ksh, fi_fi, en_ca, gl_es, bs_ba, bg_bg, be_by, mt_mt, bn-BD, de_de, no_no, ms_my, oj-CA, bak, el_gr, es_uy, ar_sa, swg, egl, jbo_en, kk_kz, mi_NZ, sq_al, val_es, ja_jp, fa_ir, cs_cz, nuk, fy_nl, yi_de, nl_nl, sah-SAH, zlm-Arab, pt_pt, es_mx, fur_it, sxu, oc_fr, az_az, is_is, ro_ro, hi_in, kw_gb, pt_br, rpr, fo_fo, yo_ng, ovd, sk_sk, la_la, so_so, fra_de, hr_hr, en_au, io_en, de_at, moh-CA, mn_mn, ckb-IR, cy_gb, sv_se, et_ee, th_th, nl_be, es_ec]
+[12:35:08] [main/INFO]: en_us.json size: 7745 bytes.
+[12:35:08] [main/INFO]: Indexed mod_sets from mod_sets-1.8.0+sha.00f0f84.jar with existing locales of: [ja_jp, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 344 bytes.
+[12:35:08] [main/INFO]: Indexed moonlight from moonlight-1.20-2.13.2-fabric.jar with existing locales of: [es_es, fr_fr, ja_jp, pt_br, ru_ru, uk_ua, vi_vn]
+[12:35:08] [main/INFO]: en_us.json size: 554 bytes.
+[12:35:08] [main/INFO]: Indexed nochatreports from NoChatReports-FABRIC-1.20.1-v2.2.2.jar with existing locales of: [zh_tw, zh_cn, vi_vn, uk_ua, tr_tr, th_th, sk_sk, ru_ru, ro_ro, pt_br, pl_pl, nl_nl, ko_kr, ja_jp, it_it, id_id, fr_fr, fi_fi, et_ee, es_es, en_pt, de_de, da_dk, cs_cz, ca_es]
+[12:35:08] [main/INFO]: en_us.json size: 17925 bytes.
+[12:35:08] [main/INFO]: Indexed notenoughanimations from notenoughanimations-fabric-1.7.6-mc1.20.1.jar with existing locales of: [zh_tw, zh_cn, uk_ua, sv_se, pt_pt, pt_br, fr_fr]
+[12:35:08] [main/INFO]: en_us.json size: 5797 bytes.
+[12:35:08] [main/INFO]: Indexed paraglider from Paraglider-fabric-20.1.3.jar with existing locales of: [ko_kr, es_es, ja_jp]
+[12:35:08] [main/INFO]: en_us.json size: 11191 bytes.
+[12:35:08] [main/INFO]: Indexed patchouli from Patchouli-1.20.1-84-FABRIC.jar with existing locales of: [ko_kr, pt_br, es_es, de_de, uk_ua, zh_cn, ru_ru, pl_pl, it_it, fr_fr, cs_cz]
+[12:35:08] [main/INFO]: en_us.json size: 6391 bytes.
+[12:35:08] [main/INFO]: Indexed pehkui from Pehkui-3.8.3+1.14.4-1.21.jar with existing locales of: [el_gr, fr_fr, pt_br]
+[12:35:08] [main/INFO]: en_us.json size: 10115 bytes.
+[12:35:08] [main/INFO]: Indexed presencefootsteps from PresenceFootsteps-1.9.4+1.20.1.jar with existing locales of: [cs_cz, de_de, es_mx, fr_fr, ja_jp, ko_kr, ru_ru, tok, tr_tr, uk_ua, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 4949 bytes.
+[12:35:08] [main/INFO]: Indexed recursiveresources from recursive-resources-2.5.2+1.20.jar with existing locales of: [de_de, ru_ru, uk_ua]
+[12:35:08] [main/INFO]: en_us.json size: 406 bytes.
+[12:35:08] [main/INFO]: Indexed reeses-sodium-options from reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar with existing locales of: [be_by, es_mx, it_it, pl_pl, pt_br, ru_ru, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 265 bytes.
+[12:35:08] [main/INFO]: Indexed resourcify from Resourcify (1.20-1.20.1-fabric)-1.4.2.jar with existing locales of: [ko_kr, tr_tr, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 6596 bytes.
+[12:35:08] [main/INFO]: Indexed respitecreators from respite-creators-1.3.0-FDR.jar with existing locales of: [ru_ru]
+[12:35:08] [main/INFO]: en_us.json size: 4566 bytes.
+[12:35:08] [main/INFO]: Indexed rprenames from RPRenames-1.20.4-0.9.1.jar with existing locales of: [ru_ru]
+[12:35:08] [main/INFO]: en_us.json size: 13017 bytes.
+[12:35:08] [main/INFO]: Indexed sereneseasons from SereneSeasons-fabric-1.20.1-9.1.0.0.jar with existing locales of: [cs_cz, de_de, es_ar, es_es, es_mx, fr_fr, it_it, kk_kz, ko_kr, nl_nl, pl_pl, pt_br, ru_ru, tr_tr, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 1887 bytes.
+[12:35:08] [main/INFO]: Indexed shulkerboxtooltip from shulkerboxtooltip-fabric-4.0.4+1.20.1.jar with existing locales of: [fr_fr, ko_kr, ru_ru, zh_cn, uk_ua, en_gb, pt_br, tr_tr]
+[12:35:08] [main/INFO]: en_us.json size: 8134 bytes.
+[12:35:08] [main/INFO]: Indexed skinlayers3d from skinlayers3d-fabric-1.6.7-mc1.20.1.jar with existing locales of: [zh_tw, zh_cn, uk_ua, tr_tr, sv_se, ru_ru, pt_pt, pt_br, ko_kr, ja_jp, it_it, es_mx, es_es, de_de, cs_cz]
+[12:35:08] [main/INFO]: en_us.json size: 2844 bytes.
+[12:35:08] [main/INFO]: Indexed sliceanddice from sliceanddice-fabric-3.3.1.jar with existing locales of: [de_de, en_ud, es_es, es_mx, fr_fr, ja_jp, ko_kr, ru_ru, uk_ua, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 1040 bytes.
+[12:35:08] [main/INFO]: Indexed sodium-extra from sodium-extra-0.5.4+mc1.20.1-build.115.jar with existing locales of: [cs_cz, de_at, de_ch, de_de, el_gr, es_ar, es_mx, et_ee, fi_fi, fr_ca, fr_fr, hu_hu, it_it, ja_jp, ko_kr, ms_my, pl_pl, pt_br, pt_pt, ru_ru, th_th, tr_tr, uk_ua, vi_vn, zh_cn, zh_hk, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 28017 bytes.
+[12:35:08] [main/INFO]: Indexed sodium from sodium-fabric-0.5.11+mc1.20.1.jar with existing locales of: []
+[12:35:08] [main/INFO]: en_us.json size: 9413 bytes.
+[12:35:08] [main/INFO]: Indexed spiceoffabric from spiceoffabric-1.6.2+mc1.20.1.jar with existing locales of: [de_de, fr_fr, ko_kr, pl_pl, pt_pt, ru_ru, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 8799 bytes.
+[12:35:08] [main/INFO]: Indexed railways from Steam_Rails-1.6.4+fabric-mc1.20.1.jar with existing locales of: [da_dk, de_at, de_de, en_gb, en_ud, es_es, fr_fr, is_is, ja_jp, ko_kr, nl_nl, no_no, pl_pl, ru_ru, sv_se, uk_ua, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 96325 bytes.
+[12:35:08] [main/INFO]: Indexed supplementaries from supplementaries-1.20-2.8.17-fabric.jar with existing locales of: [ca_es, cs_cz, de_de, en_gb, en_pt, es_ar, es_es, es_mx, fr_fr, it_it, ja_jp, kk_kz, ko_kr, ms_my, pl_pl, pt_br, pt_pt, ru_ru, sr_sp, tok, tr_tr, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 28124 bytes.
+[12:35:08] [main/INFO]: Indexed tcdcommons from tcdcommons-3.12.3+fabric-1.20.1.jar with existing locales of: [ar_sa, de_de, es_es, fr_fr, it_it, ja_jp, ko_kr, nl_be, nl_nl, pt_br, ru_ru, tr_tr, tt_ru, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 2673 bytes.
+[12:35:08] [main/INFO]: Indexed toughasnails from ToughAsNails-fabric-1.20.1-9.2.0.171.jar with existing locales of: [cs_cz, de_de, es_es, fr_fr, it_it, ja_jp, ko_kr, lol_us, pl_pl, ru_ru, tr_tr, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 6242 bytes.
+[12:35:08] [main/INFO]: Indexed trinkets from trinkets-3.7.2.jar with existing locales of: [tr_tr, nl_nl, ko_kr, fr_fr, de_de, uk_ua, pt_br, ru_ru, ja_jp, es_es, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 857 bytes.
+[12:35:08] [main/INFO]: Indexed ubesdelight from ubesdelight-fabric-1.20.1-0.2.3.jar with existing locales of: [es_mx, ru_ru, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 10807 bytes.
+[12:35:08] [main/INFO]: Indexed valkyrienskies from valkyrienskies-120-2.3.0-beta.5.jar with existing locales of: [en_pt, fr_fr, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 1478 bytes.
+[12:35:08] [main/INFO]: Indexed visuality from visuality-0.7.1+1.20.jar with existing locales of: [es_mx, pt_br, ru_ru, uk_ua, zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 1149 bytes.
+[12:35:08] [main/INFO]: Indexed valkyrien_mod from VMod-Fabric-1.20.1-0.1.1.jar with existing locales of: [zh_cn]
+[12:35:08] [main/INFO]: en_us.json size: 5056 bytes.
+[12:35:08] [main/INFO]: Indexed voicechat from voicechat-fabric-1.20.1-2.5.22.jar with existing locales of: [ca_es, cs_cz, de_de, es_ar, es_es, es_mx, fr_ca, fr_fr, it_it, ja_jp, ko_kr, nl_nl, no_no, pl_pl, pt_br, pt_pt, ru_ru, sv_se, tr_tr, tt_ru, uk_ua, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 17069 bytes.
+[12:35:08] [main/INFO]: Indexed vt_downloader from vt-downloader-2.0.8+1.20.1.jar with existing locales of: [zh_tw, fr_fr, zh_cn, ru_ru, pl_pl]
+[12:35:08] [main/INFO]: en_us.json size: 1375 bytes.
+[12:35:08] [main/INFO]: Indexed waila from wthit-fabric-8.15.2.jar with existing locales of: [de_de, es_ar, es_cl, es_ec, es_es, es_mx, es_uy, es_ve, ja_jp, ko_kr, pl_pl, ru_ru, sv_se, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 22118 bytes.
+[12:35:08] [main/INFO]: Indexed yet_another_config_lib_v3 from YetAnotherConfigLib-3.5.0+1.20.1-fabric.jar with existing locales of: [be_by, el_gr, es_es, et_ee, fr_fr, it_it, nl_nl, pl_pl, pt_br, ru_ru, sl_si, tt_ru, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 1395 bytes.
+[12:35:08] [main/INFO]: Indexed betterdungeons from YungsBetterDungeons-1.20-Fabric-4.0.4.jar with existing locales of: [zh_cn, uk_ua, ru_ru, it_it, es_es]
+[12:35:08] [main/INFO]: en_us.json size: 10116 bytes.
+[12:35:08] [main/INFO]: Indexed betterstrongholds from YungsBetterStrongholds-1.20-Fabric-4.0.3.jar with existing locales of: [uk_ua, ru_ru]
+[12:35:08] [main/INFO]: en_us.json size: 2495 bytes.
+[12:35:08] [main/INFO]: Indexed betterwitchhuts from YungsBetterWitchHuts-1.20-Fabric-3.0.3.jar with existing locales of: [uk_ua, ru_ru]
+[12:35:08] [main/INFO]: en_us.json size: 486 bytes.
+[12:35:08] [main/INFO]: Indexed zoomify from Zoomify-2.14.0+1.20.1.jar with existing locales of: [de_de, en_gb, es_es, es_mx, et_ee, fr_fr, ja_jp, pt_br, ru_ru, sv_se, tr_tr, vi_vn, zh_cn, zh_tw]
+[12:35:08] [main/INFO]: en_us.json size: 11311 bytes.
+[12:35:09] [main/INFO]: Searching for graphics cards...
+[12:35:09] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 3080', adapterType=0x0000030B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nvdd.inf_amd64_ae9e06a36785768d\nvoglv64.dll', openglIcdVersion=32.0.15.6094}
+[12:35:09] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[12:35:09] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[12:35:09] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12:35:09] [main/WARN]: @Final field field_22786:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
+[12:35:09] [main/WARN]: @Final field field_33815:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
+[12:35:09] [pool-2-thread-1/INFO]: Received language files from server.
+[12:35:10] [main/INFO]: Mixing client.MixinMinecraft from mixins/common/nochatreports.mixins.json into net.minecraft.class_310
+[12:35:10] [main/INFO]: Mixing client.MixinMinecraft from mixins/fabric/nochatreports-fabric.mixins.json into net.minecraft.class_310
+[12:35:11] [main/INFO]: Mixing client.MixinTitleScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_442
+[12:35:11] [main/WARN]: Method overwrite conflict for getEntityManager in spark.mixins.json:ClientWorldAccessor from mod spark, previously written by me.jellysquid.mods.lithium.mixin.chunk.entity_class_groups.ClientWorldMixin. Skipping method.
+[12:35:11] [main/INFO]: Mixing client.MixinChatScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_408
+[12:35:11] [main/INFO]: Renaming synthetic method lambda$onInit$4()Lnet/minecraft/class_2561; to md58b402$nochatreports$lambda$onInit$4$1 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:35:11] [main/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;)V to md58b402$nochatreports$lambda$onInit$3$2 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:35:11] [main/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to md58b402$nochatreports$lambda$onInit$2$3 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:35:11] [main/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to md58b402$nochatreports$lambda$onInit$1$4 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:35:11] [main/INFO]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/common/encryption/Encryptor;)V to md58b402$nochatreports$lambda$onBeforeMessage$0$5 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:35:11] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[12:35:11] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md58b402$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[12:35:11] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md58b402$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[12:35:14] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 102 milliseconds
+[12:35:14] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[12:35:15] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:35:15] [Render thread/INFO]: Mixing client.MixinYggdrasilUserApiService from mixins/common/nochatreports.mixins.json into com.mojang.authlib.yggdrasil.YggdrasilUserApiService
+[12:35:15] [Render thread/INFO]: Setting user: maximusmith529
+[12:35:15] [Render thread/INFO]: Mixing client.MixinToastComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_374
+[12:35:15] [Render thread/INFO]: Loaded config amendments-common.json
+[12:35:15] [Render thread/INFO]: Mixing client.MixinClientPacketListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_634
+[12:35:15] [Render thread/INFO]: Loaded config amendments-client.json
+[12:35:15] [Render thread/INFO]: Loaded config moonlight-client.json
+[12:35:16] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_332::method_51435(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;)V has incompatible changes at opcode 195 in callback iceberg.mixins.json:GuiGraphicsMixin from mod iceberg->@Inject::storeLocalsOptifine(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/lang/Object;IIIILorg/joml/Vector2ic;)V.
+ Expected: [Ljava/lang/Object;, I, I, I, I, Lorg/joml/Vector2ic;]
+    Found: [I, I, I, I, Lorg/joml/Vector2ic;]
+Available: [I, I, I, I, Lorg/joml/Vector2ic;]
+[12:35:16] [Render thread/INFO]: Initializing Beans' Backpacks Constants
+[12:35:16] [Render thread/INFO]: Initializing Beans' Backpacks Common
+[12:35:16] [Render thread/INFO]: Initializing Beans' Backpacks Fabric
+[12:35:16] [Render thread/INFO]: Reflections took 40 ms to scan 1 urls, producing 1 keys and 3 values
+[12:35:17] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[12:35:17] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[12:35:17] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[12:35:17] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[12:35:17] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[12:35:17] [Render thread/INFO]: Common init
+[12:35:17] [Cicada thread 0/INFO]: [recursiveresources] This mod is a fork of the now abandoned mod called Resource Pack Organizer, originally made by chylex.
+[12:35:18] [Render thread/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock from mod valkyrienskies::handler$ina000$valkyrienskies$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[12:35:19] [Render thread/WARN]: Discarding @Unique public method getOffset in porting_lib_extensions.mixins.json:client.VertexFormatMixin from mod porting_lib_extensions because it already exists in net.minecraft.class_293
+[12:35:19] [Render thread/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
+[12:35:19] [Render thread/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
+[12:35:19] [Render thread/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
+[12:35:20] [Render thread/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
+[12:35:20] [Render thread/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
+[12:35:20] [Render thread/INFO]: Registering items for Create Deco
+[12:35:20] [Render thread/INFO]: Registering blocks for Create Deco
+[12:35:20] [Render thread/INFO]: Create Deco is accessing Porting Lib on a Fabric client!
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: placard tooltip was null
+[12:35:20] [Render thread/INFO]: CreateGoggles init
+[12:35:20] [Render thread/INFO]: cgblocks
+[12:35:20] [Render thread/INFO]: cgitems
+[12:35:20] [Render thread/INFO]: cgblockentities
+[12:35:20] [Render thread/INFO]: ResourceKey[minecraft:trim_pattern / creategoggles:goggle]
+[12:35:20] [Render thread/INFO]: ResourceKey[minecraft:trim_material / creategoggles:goggle_material]
+[12:35:20] [Render thread/INFO]: ResourceKey[minecraft:root / minecraft:trim_pattern]
+[12:35:20] [Render thread/INFO]: CGItemModifiers register false
+[12:35:20] [Render thread/INFO]: Registering S2C receiver with id creategoggles:sync_goggles
+[12:35:20] [Render thread/INFO]: CreateGogglesFabric init
+[12:35:20] [Render thread/INFO]: Enabled 66 bug fixes: [MC-577, MC-2025, MC-4490, MC-7569, MC-8187, MC-12829, MC-14923, MC-22882, MC-30391, MC-31819, MC-46766, MC-55347, MC-69216, MC-72151, MC-79545, MC-80859, MC-88371, MC-89146, MC-90084, MC-90683, MC-93018, MC-93384, MC-100991, MC-108948, MC-111516, MC-112730, MC-116379, MC-119417, MC-119754, MC-121706, MC-121772, MC-121903, MC-122477, MC-122627, MC-123739, MC-124117, MC-127970, MC-129909, MC-132878, MC-135971, MC-140646, MC-143474, MC-155509, MC-159163, MC-160095, MC-165381, MC-176559, MC-179072, MC-183776, MC-183990, MC-193343, MC-197260, MC-199467, MC-200418, MC-206922, MC-215530, MC-215531, MC-217716, MC-223153, MC-224729, MC-227169, MC-231097, MC-231743, MC-232869, MC-237493, MC-263865]
+[12:35:20] [Render thread/INFO]: Successfully Debugify'd your game!
+[12:35:20] [Render thread/INFO]: [FANCYMENU] Loading v3.2.3 in client-side mode on FABRIC!
+[12:35:20] [Render thread/INFO]: initializing
+[12:35:20] [Render thread/INFO]: blocks registered
+[12:35:20] [Render thread/INFO]: block entities registered
+[12:35:20] [Render thread/INFO]: items registered
+[12:35:20] [Render thread/INFO]: events registered
+[12:35:21] [Render thread/ERROR]: No data fixer registered for rotten_tomato
+[12:35:21] [Render thread/INFO]: Serene Seasons detected. Enabling season modifier.
+[12:35:21] [Render thread/ERROR]: No data fixer registered for season_sensor
+[12:35:21] [Render thread/ERROR]: No data fixer registered for water_purifier
+[12:35:21] [Render thread/ERROR]: No data fixer registered for temperature_gauge
+[12:35:21] [Render thread/ERROR]: No data fixer registered for thermoregulator
+[12:35:21] [Render thread/INFO]: Initializing ServerSide Packet Registries
+[12:35:21] [Render thread/INFO]: [KONKRETE] Successfully initialized!
+[12:35:21] [Render thread/INFO]: [KONKRETE] Server-side libs ready to use!
+[12:35:21] [Render thread/INFO]: Compression will use Java, encryption will use Java
+[12:35:21] [Render thread/INFO]: Constructing common components for leavesbegone:main
+[12:35:21] [Render thread/INFO]: [MELODY] Loading Melody background audio library..
+[12:35:21] [Render thread/INFO]: Definitely not up to no good
+[12:35:21] [Render thread/INFO]: KONNICHIWA ZA WARUDO!
+[12:35:21] [Render thread/INFO]: Default JVM text encoding is: windows-1252
+[12:35:21] [Render thread/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[12:35:21] [Render thread/INFO]: Reading config file NoChatReports/NCR-Client.json...
+[12:35:21] [Render thread/INFO]: Reading config file NoChatReports/NCR-ServerPreferences.json...
+[12:35:21] [Render thread/INFO]: Reading config file NoChatReports/NCR-Encryption.json...
+[12:35:21] [Render thread/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[12:35:21] [Render thread/INFO]: Writing config file NoChatReports/NCR-Client.json...
+[12:35:21] [Render thread/INFO]: Writing config file NoChatReports/NCR-ServerPreferences.json...
+[12:35:21] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
+[12:35:21] [Render thread/INFO]: Client initialization...
+[12:35:22] [Render thread/INFO]: Constructing common components for puzzleslib:main
+[12:35:22] [Render thread/INFO]: Registered bogey styles from railways
+[12:35:22] [Render thread/INFO]: Registering data fixers
+[12:35:22] [Railways Datafixer Bootstrap/INFO]: 2 Datafixer optimizations took 0 milliseconds
+[12:35:22] [Render thread/INFO]: Registering tracks for Hex Casting
+[12:35:22] [Render thread/INFO]: Registering tracks for Oh The Biomes You'll Go
+[12:35:22] [Render thread/INFO]: Registering tracks for Blue Skies
+[12:35:22] [Render thread/INFO]: Registering tracks for Twilight Forest
+[12:35:22] [Render thread/INFO]: Registering tracks for Biomes O' Plenty
+[12:35:22] [Render thread/INFO]: Registering tracks for Nature's Spirit
+[12:35:22] [Render thread/INFO]: Registering tracks for Dreams and Desires
+[12:35:22] [Render thread/INFO]: Registering tracks for Quark
+[12:35:22] [Render thread/INFO]: Registering tracks for TerraFirmaCraft
+[12:35:22] [Render thread/INFO]: [ShulkerBoxTooltip] Could not find configuration file, creating default file
+[12:35:22] [Render thread/INFO]: Reloaded configs for spiceoffabric (universal/highest)
+[12:35:22] [Render thread/INFO]: Loaded config supplementaries-common.json
+[12:35:22] [Render thread/INFO]: Loaded config supplementaries-client.json
+[12:35:22] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:tr_rendering_data_request_failure
+[12:35:22] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:tr_rendering_data_send_part
+[12:35:22] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_client_synchronised_rendering_data
+[12:35:22] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:tr_rendering_data_request_data
+[12:35:22] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:tr_rendering_data_request_part
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_toolgun_extensions_set_schema
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_connection_networking_handle_failure
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_connection_networking_send_traversal_info
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:tr_save_schem_stream_request_failure
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:tr_save_schem_stream_send_part
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:tr_load_schem_stream_request_data
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:tr_load_schem_stream_request_part
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:tr_save_schem_stream_request_data
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:tr_save_schem_stream_request_part
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:tr_load_schem_stream_request_failure
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:tr_load_schem_stream_send_part
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_schem_networking_load_schematic
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_schem_networking_send_ship_info
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_gravity_settings_request_gravity_vectors
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_gravity_settings_send_gravity_vectors
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_gravity_settings_try_update_gravity_vectors
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_gravity_settings_dimensional_gravity_update_was_rejected
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_request_role_data
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_player_roles_settings_send_role_data
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_update_roles_settings
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_remove_role
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_player_roles_settings_role_was_removed
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_add_new_role
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_player_roles_settings_role_was_added
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_player_role_manager_request_players_roles_data
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_player_role_manager_send_players_roles_data
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_player_role_manager_try_change_player_role
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_simple_messager_requset_state
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_simple_messager_request_state_response
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_simple_messager_send_state_update
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_simple_messager_state_update_response
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_server_limits_request_server_limits
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_server_limits_send_current_server_limits
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_server_limits_send_updated_server_limits
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_server_limits_server_limits_update_was_rejected
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_connection_mode_primary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_connection_mode_secondary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_rope_mode_primary_connection
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_hydraulics_networking_handle_failure
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_hydraulics_networking_send_traversal_info
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_hydraulics_mode_primary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_hydraulics_mode_secondary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_phys_rope_mode_primary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_slider_mode_primary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_sync_rotation_mode_primary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_thruster_mode_primary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_grav_changer_mode_primary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_grav_changer_mode_secondary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_disable_connections_mode_primary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_disable_connections_mode_secondary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_schem_mode_primary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_schem_mode_secondary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_scale_mode_primary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_strip_mode_primary_connection
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_ship_remover_primary_connection
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_server_toolgun_toolgun_usage_rejected
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_request_remove_last_constraint
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_server_toolgun_error_happened
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_server_toolgun_toolgun_was_reset
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_toolgun_was_reset
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_ask_if_i_have_access
+[12:35:23] [Render thread/INFO]: Registering S2C receiver with id valkyrien_mod:s2c_server_toolgun_response_to_access_request
+[12:35:23] [Render thread/INFO]: Registering C2S receiver with id valkyrien_mod:c2s_server_physgun_state_changed
+[12:35:23] [Render thread/ERROR]: No data fixer registered for simple_messager
+[12:35:23] [Render thread/ERROR]: No data fixer registered for valkyrien_mod:phys_rope_component_entity
+[12:35:23] [Render thread/ERROR]: No data fixer registered for valkyrienskies:ship_mounting_entity
+[12:35:23] [Render thread/ERROR]: No data fixer registered for valkyrienskies:vs_physics_entity
+[12:35:23] [Render thread/INFO]: [STDOUT]: registering network handlers
+[12:35:23] [Render thread/INFO]: [voicechat] Compatibility version 18
+[12:35:23] [Render thread/INFO]: [voicechat] Loading plugins
+[12:35:23] [Render thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[12:35:23] [Render thread/INFO]: [voicechat] Initializing plugins
+[12:35:23] [Render thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[12:35:23] [Render thread/ERROR]: No data fixer registered for ship_helm
+[12:35:23] [Render thread/ERROR]: No data fixer registered for engine
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing plugin ubesdelight:plugin at com.chefmooon.ubesdelight.integration.wthit.UbesDelightWailaPlugin
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing client plugin waila:core at mcp.mobius.waila.plugin.core.CoreClientPlugin
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing client plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaClientPlugin
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing client plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestClientPlugin
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing common plugin waila:fabric at mcp.mobius.waila.plugin.fabric.FabricCommonPlugin
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing client plugin waila:fabric at mcp.mobius.waila.plugin.fabric.FabricClientPlugin
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing common plugin waila:team_reborn_energy at mcp.mobius.waila.plugin.trenergy.TeamRebornEnergyCommonPlugin
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing plugin cookingforblockheads:wthit at net.blay09.mods.cookingforblockheads.compat.WTHITCookingForBlockheadsPlugin
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[12:35:24] [Render thread/INFO]: [WTHIT] Initializing client plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[12:35:24] [Render thread/WARN]: [WTHIT] Found plugins registered via legacy platform-dependant method:
+[12:35:24] [Render thread/WARN]: [WTHIT] [cookingforblockheads:wthit]
+[12:35:24] [Render thread/WARN]: [WTHIT] The method will be removed on Minecraft 1.21
+[12:35:24] [Render thread/INFO]: [WTHIT] Plugin config reloaded
+[12:35:24] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[12:35:24] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 4 values
+[12:35:24] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[12:35:24] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[12:35:24] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[12:35:24] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[12:35:24] [Render thread/INFO]: Deserializing AdaptiveTooltipConfig from 'C:\Users\maxim\AppData\Roaming\PrismLauncher\instances\Create Extra\minecraft\config\adaptive-tooltips.json'
+[12:35:24] [Render thread/INFO]: AdvancementInfo initialized
+[12:35:24] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[12:35:24] [Render thread/INFO]: [BetterF3] Loading...
+[12:35:24] [Render thread/INFO]: [BetterF3] All done!
+[12:35:24] [Render thread/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsClient'.
+[12:35:24] [Render thread/INFO]: Loaded 'BetterStatsConfig' config from 'betterstats.json'.
+[12:35:24] [Render thread/INFO]: Mixing client.MixinJoinMultiplayerScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_500
+[12:35:24] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to md58b402$nochatreports$lambda$onInit$2$0 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[12:35:24] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to md58b402$nochatreports$lambda$onInit$1$1 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[12:35:24] [Render thread/INFO]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/class_4185;)V to md58b402$nochatreports$lambda$onInit$0$2 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[12:35:24] [Render thread/INFO]: Trying to read config file...
+[12:35:24] [Render thread/INFO]: A config file was found, loading it..
+[12:35:24] [Render thread/INFO]: Successfully loaded config file.
+[12:35:24] [Render thread/INFO]: [citresewn] Registering CIT Conditions
+[12:35:24] [Render thread/INFO]: [citresewn] Registering CIT Types
+[12:35:24] [Render thread/INFO]: CreateGogglesFabricClient init
+[12:35:24] [Render thread/INFO]: Loading CullLessLeavesConfig...
+[12:35:24] [Render thread/INFO]: Loading Description Cache
+[12:35:24] [Render thread/INFO]: Dynamic FPS 3.7.3 active on Fabric!
+[12:35:24] [Render thread/INFO]: Loading Entity Model Features, now moving all models 0.00001 blocks to the left every 4 seconds.
+[12:35:24] [Render thread/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features.
+[12:35:24] [Render thread/INFO]: Loading Entity Texture Features, 0% Opti, 100% Fine.
+[12:35:25] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[12:35:25] [Render thread/INFO]: entity rendering registered
+[12:35:25] [Render thread/INFO]: [FastQuit] Initialized
+[12:35:25] [Render thread/INFO]: Iris detected.
+[12:35:25] [Render thread/INFO]: Sending ConfigManager...
+[12:35:25] [Render thread/INFO]: Sending ConfigManager took 1.260 ms
+[12:35:25] [Render thread/INFO]: Krypton is now accelerating your Minecraft client's networking stack ?
+[12:35:25] [Render thread/INFO]: Note that Krypton is most effective on servers, not the client.
+[12:35:25] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[12:35:25] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[12:35:25] [Worker-Main-2/INFO]: Checking mod updates...
+[12:35:25] [Render thread/INFO]: Initialized block sets in 12ms
+[12:35:25] [Render thread/ERROR]: No data fixer registered for falling_lantern
+[12:35:25] [Render thread/ERROR]: No data fixer registered for dispenser_minecart
+[12:35:25] [Render thread/ERROR]: No data fixer registered for falling_urn
+[12:35:25] [Render thread/ERROR]: No data fixer registered for falling_ash
+[12:35:25] [Render thread/ERROR]: No data fixer registered for falling_sack
+[12:35:25] [Render thread/ERROR]: No data fixer registered for brick_projectile
+[12:35:25] [Render thread/ERROR]: No data fixer registered for bomb
+[12:35:25] [Render thread/ERROR]: No data fixer registered for rope_arrow
+[12:35:25] [Render thread/ERROR]: No data fixer registered for slingshot_projectile
+[12:35:25] [Render thread/INFO]: Initialized color sets in 15ms
+[12:35:25] [Render thread/INFO]: Finished mod setup in: [10, 0, 0, 0, 0, 0, 5, 5, 0] ms
+[12:35:25] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[12:35:25] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[12:35:26] [Render thread/INFO]: Mixing client.MixinOptions from mixins/common/nochatreports.mixins.json into net.minecraft.class_315
+[12:35:26] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$0(Ljava/lang/Boolean;)V to md58b402$nochatreports$lambda$onlyShowSecureChat$0$2 in mixins/common/nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[12:35:26] [Render thread/INFO]: Mixing client.MixinServerData from mixins/common/nochatreports.mixins.json into net.minecraft.class_642
+[12:35:26] [Render thread/WARN]: Method overwrite conflict for getModel in fabric-model-loading-api-v1.mixins.json:BakedModelManagerMixin from mod fabric-model-loading-api-v1, previously written by foundationgames.enhancedblockentities.mixin.BakedModelManagerMixin. Skipping method.
+[12:35:26] [Render thread/INFO]: Mixing client.MixinChatListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_7594
+[12:35:26] [Render thread/INFO]: Constructing client components for puzzleslib:main
+[12:35:26] [Render thread/INFO]: RPRenames author like coca-cola zero, but don't tell anyone
+[12:35:26] [Render thread/INFO]: Loading RPRenames built-in resource packs
+[12:35:26] [Render thread/INFO]: Initializing 'TCD Commons API' 3.12.3+fabric-1.20.1 as 'TCDCommonsClient'.
+[12:35:26] [Render thread/INFO]: [voicechat] Using Cloth Config GUI
+[12:35:26] [Render thread/INFO]: [voicechat] Loading Opus
+[12:35:26] [Render thread/INFO]: VTDownloader 2.0.7, using Vanilla Tweaks 1.20
+[12:35:26] [Render thread/INFO]: Loaded 17 resource pack categories
+[12:35:26] [Render thread/INFO]: Deserializing YACLConfig from 'C:\Users\maxim\AppData\Roaming\PrismLauncher\instances\Create Extra\minecraft\config\yacl.json5'
+[12:35:27] [Render thread/INFO]: Mixing client.MixinChatComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_338
+[12:35:27] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$1()V to md58b402$nochatreports$lambda$modifyGUIMessage$1$0 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[12:35:27] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/class_5348;Lnet/minecraft/class_2561;)V to md58b402$nochatreports$lambda$modifyGUIMessage$0$1 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[12:35:27] [Render thread/INFO]: Mixing client.MixinGuiMessageTagIcon from mixins/common/nochatreports.mixins.json into net.minecraft.class_7591$class_7592
+[12:35:27] [Render thread/INFO]: Renaming @Invoker method create(Ljava/lang/String;IIIII)Lnet/minecraft/class_7591$class_7592; to create$nochatreports_$md$58b402$0 in mixins/common/nochatreports.mixins.json:client.MixinGuiMessageTagIcon from mod nochatreports
+[12:35:27] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Cached update file detected, using that!
+[12:35:27] [Render thread/INFO]: Loading config file from C:\Users\maxim\AppData\Roaming\PrismLauncher\instances\Create Extra\minecraft\config\simple-rpc\simple-rpc.toml
+[12:35:27] [Render thread/INFO]: Registered simple-rpc.toml successfully!
+[12:35:27] [Render thread/INFO]: Loading config file from C:\Users\maxim\AppData\Roaming\PrismLauncher\instances\Create Extra\minecraft\config\simple-rpc\server-entries.toml
+[12:35:27] [Render thread/INFO]: Registered server-entries.toml successfully!
+[12:35:27] [Render thread/INFO]: Loading config file from C:\Users\maxim\AppData\Roaming\PrismLauncher\instances\Create Extra\minecraft\config\simple-rpc\simple-rpc-replaymod.toml
+[12:35:27] [Render thread/INFO]: Registered simple-rpc-replaymod.toml successfully!
+[12:35:27] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[12:35:27] [Render thread/WARN]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[12:35:27] [Render thread/INFO]: Initializing ImmediatelyFast 1.2.21+1.20.4 on NVIDIA GeForce RTX 3080/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 3.2.0 NVIDIA 560.94
+[12:35:27] [Render thread/INFO]: Found Iris/Oculus 1.7.2+mc1.20.1. Enabling compatibility.
+[12:35:27] [Render thread/INFO]: Debug functionality is disabled.
+[12:35:27] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[12:35:27] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
+[12:35:28] [Render thread/INFO]: ARRP register - before vanilla
+[12:35:28] [Render thread/INFO]: ARRP register - after vanilla
+[12:35:28] [Render thread/INFO]: ARRP register - before user
+[12:35:28] [Render thread/INFO]: Block minecraft:water_cauldron had its color provider replaced with net.mehvahdjukaar.amendments.AmendmentsClient$$Lambda$15126/0x0000000801f2ddc8@14077038 and will not use per-vertex coloring
+[12:35:28] [Render thread/INFO]: Block minecraft:birch_leaves had its color provider replaced with sereneseasons.init.ModClient$$Lambda$14533/0x0000000801dfd7c8@472700bc and will not use per-vertex coloring
+[12:35:28] [Render thread/INFO]: Hardware information:
+[12:35:28] [Render thread/INFO]: CPU: 12x 12th Gen Intel(R) Core(TM) i5-12600KF
+[12:35:28] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 3080/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 560.94)
+[12:35:28] [Render thread/INFO]: OS: Windows 10 (10.0)
+[12:35:28] [Render thread/INFO]: [FANCYMENU] Registering resource reload listener..
+[12:35:28] [Render thread/INFO]: [FANCYMENU] Initializing screen customization engine! Addons should NOT REGISTER TO REGISTRIES anymore now!
+[12:35:28] [Render thread/INFO]: Mixing client.MixinConnectScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_412
+[12:35:28] [Render thread/INFO]: Mixing client.MixinChatOptionsScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_404
+[12:35:28] [Render thread/INFO]: Renaming synthetic method lambda$init$0(Lnet/minecraft/class_339;)V to md58b402$nochatreports$lambda$init$0$0 in mixins/common/nochatreports.mixins.json:client.MixinChatOptionsScreen from mod nochatreports
+[12:35:29] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: STARTING
+[12:35:29] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (adaptive-tooltips, advanced_runtime_resource_pack, advancementinfo, advancementplaques, ambientsounds, amendments, another_furniture, antighost, appleskin, balm-fabric, beansbackpacks, betterdungeons, betterf3, betterstats, betterstrongholds, betterwitchhuts, bewitchment, blur, bobby, bountiful, caffeineconfig, capes, capsaicin, cardinal-components, cardinal-components-base, cardinal-components-block, cardinal-components-chunk, cardinal-components-entity, cardinal-components-item, cardinal-components-level, cardinal-components-scoreboard, cardinal-components-world, chat_heads, cicada, citresewn, citresewn-defaults, clickthrough, cloth-config, coat, continuity, cookingforblockheads, craterlib, create, create_enchantment_industry, createaddition, createbigcannons, createdeco, creategoggles, creativecore, cull-less-leaves, dark-loading-screen, debugify, dripstone_fluid_lib, dynamic_fps, emotecraft, enhancedblockentities, entity_model_features, entity_texture_features, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fabrishot, fancymenu, farmaddon, farmersdelight, farmersrespite, fastquit, feytweaks, flywheel, forgeconfigapiport, gbfabrictools, immediatelyfast, impersonate, indium, inventoryprofilesnext, iris, jei, journeymap, kanos_config, konkrete, krypton, lambdynlights, languagereload, libipn, lithium, loqui, midnightlib, milk, mm, mod_sets, modmenu, moonlight, mr_dungeons_andtaverns, nochatreports, notenoughanimations, paraglider, patchouli, pehkui, playerabilitylib, porting_lib_accessors, porting_lib_attributes, porting_lib_base, porting_lib_brewing, porting_lib_client_events, porting_lib_common, porting_lib_config, porting_lib_core, porting_lib_data, porting_lib_entity, porting_lib_extensions, porting_lib_fluids, porting_lib_gametest, porting_lib_gui_utils, porting_lib_lazy_registration, porting_lib_loot, porting_lib_mixin_extensions, porting_lib_model_generators, porting_lib_model_loader, porting_lib_model_materials, porting_lib_models, porting_lib_networking, porting_lib_obj_loader, porting_lib_recipe_book_categories, porting_lib_registries, porting_lib_tags, porting_lib_tool_actions, porting_lib_transfer, porting_lib_utility, preloading_tricks, presencefootsteps, pride, railways, reach-entity-attributes, recursiveresources, reeses-sodium-options, registrate-fabric, replaymod, resourcify, respitecreators, rprenames, satin, sereneseasons, settingdust_modsets_ingame_, shared-resources-api, shulkerboxtooltip, simplerpc, skinlayers3d, sliceanddice, sodium, sodium-extra, spark, spiceoffabric, spruceui, step-height-entity-attribute, supplementaries, tcdcommons, team_reborn_energy, terraform-wood-api-v1, toughasnails, trinkets, tweed4_annotated, tweed4_base, tweed4_data, tweed4_data_hjson, tweed4_tailor_coat, tweed4_tailor_lang_json_descriptions, tweed4_tailor_screen, ubesdelight, valkyrien_mod, valkyrienskies, visuality, voicechat, vs_clockwork, vs_eureka, vt_downloader, wthit, yet_another_config_lib_v3, zoomify), presencefootsteps:default_sound_pack, Moonlight Mods Dynamic Assets, replaymod_lang
+[12:35:29] [Render thread/INFO]: closing rrp ebe:base_resources
+[12:35:29] [Render thread/INFO]: ARRP register - before vanilla
+[12:35:29] [Render thread/INFO]: ARRP register - after vanilla
+[12:35:29] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (amendments) in: 78 ms
+[12:35:29] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 2 ms
+[12:35:29] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (supplementaries) in: 36 ms
+[12:35:29] [pool-12-thread-3/INFO]: Connected to discord as maximusmith529
+[12:35:29] [Worker-Main-11/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[12:35:29] [Worker-Main-4/WARN]: Unable to find texture beansbackpacks:textures/trims/trim_button_default.png
+[12:35:29] [Worker-Main-4/WARN]: Unable to find texture creategoggles:textures/trims/models/armor/goggle.png
+[12:35:29] [Worker-Main-4/WARN]: Unable to find texture creategoggles:textures/trims/models/armor/goggle_leggings.png
+[12:35:29] [Worker-Main-8/ERROR]: Invalid path in mod resource-pack vs_clockwork: vs_clockwork:models/block/phys_bearing_old/PhysBearing Generic.bbmodel, ignoring
+[12:35:29] [Render thread/INFO]: [FANCYMENU] Preloading animations! This could cause the loading screen to freeze for a while..
+[12:35:29] [Render thread/INFO]: [FANCYMENU] Finished preloading animations!
+[12:35:29] [Render thread/INFO]: [FANCYMENU] Starting late client initialization phase..
+[12:35:29] [Render thread/INFO]: [KONKRETE] Client-side libs ready to use!
+[12:35:29] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: title_screen
+[12:35:29] [Worker-Main-12/WARN]: Model loader 'supplementaries:blackboard' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:29] [Worker-Main-12/WARN]: Falling back to vanilla logic.
+[12:35:29] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[12:35:30] [Worker-Main-8/WARN]: Model loader 'supplementaries:book_pile' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-8/WARN]: Falling back to vanilla logic.
+[12:35:30] [Worker-Main-7/WARN]: Model loader 'supplementaries:bunting' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-7/WARN]: Falling back to vanilla logic.
+[12:35:30] [Worker-Main-8/WARN]: Model loader 'amendments:carpet_overlay' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-8/WARN]: Falling back to vanilla logic.
+[12:35:30] [Render thread/INFO]: Game entered main loop!
+[12:35:30] [Worker-Main-7/WARN]: Model loader 'amendments:cauldron' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-7/WARN]: Falling back to vanilla logic.
+[12:35:30] [Worker-Main-7/WARN]: Model loader 'supplementaries:faucet' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-7/WARN]: Falling back to vanilla logic.
+[12:35:30] [Worker-Main-12/WARN]: Model loader 'supplementaries:flower_box' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-12/WARN]: Falling back to vanilla logic.
+[12:35:30] [Worker-Main-3/WARN]: Model loader 'supplementaries:goblet' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-3/WARN]: Falling back to vanilla logic.
+[12:35:30] [Worker-Main-7/WARN]: Model loader 'amendments:hanging_pot' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-7/WARN]: Falling back to vanilla logic.
+[12:35:30] [Worker-Main-7/ERROR]: Failed to load model vs_clockwork:models/block/heat_pipe/casing.json
+com.google.gson.JsonParseException: JSON data was null or empty
+	at net.minecraft.class_3518.method_15267(class_3518.java:533) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[client-intermediary.jar:?]
+	at net.minecraft.class_793.method_3437(class_793.java:86) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1092.method_45898(class_1092.java:105) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[12:35:30] [Worker-Main-7/WARN]: Model loader 'amendments:waterlogged_lily' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-7/WARN]: Falling back to vanilla logic.
+[12:35:30] [Worker-Main-7/WARN]: Model loader 'supplementaries:mimic_block' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-7/WARN]: Falling back to vanilla logic.
+[12:35:30] [Worker-Main-3/WARN]: Model loader 'forge:obj' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-3/WARN]: Falling back to vanilla logic.
+[12:35:30] [Worker-Main-11/WARN]: Model loader 'supplementaries:rope_knot' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-11/WARN]: Falling back to vanilla logic.
+[12:35:30] [Render thread/INFO]: Initializing ClientSide Packet Registries
+[12:35:30] [Render thread/INFO]: Found @IClientPlugin: com.railwayteam.railways.compat.journeymap.RailwayMapPlugin
+[12:35:30] [Worker-Main-8/WARN]: Model loader 'supplementaries:frame_block' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-8/WARN]: Falling back to vanilla logic.
+[12:35:30] [Worker-Main-3/WARN]: Model loader 'supplementaries:frame_block' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-3/WARN]: Falling back to vanilla logic.
+[12:35:30] [Worker-Main-8/WARN]: Model loader 'amendments:tool_hook' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:30] [Worker-Main-8/WARN]: Falling back to vanilla logic.
+[12:35:31] [Worker-Main-9/WARN]: Model loader 'amendments:wall_lantern' not found. Registered loaders: porting_lib:elements, porting_lib:composite, porting_lib:fluid_container, porting_lib:obj, forge:bucket
+[12:35:31] [Worker-Main-9/WARN]: Falling back to vanilla logic.
+[12:35:31] [Worker-Main-7/INFO]: Starting collecting renames
+[12:35:31] [Worker-Main-7/INFO]: Finished collecting renames [0.59s]
+[12:35:31] [Worker-Main-7/WARN]: Unable to load model: 'vs_clockwork:block/afterblazer/blaze_infuriated' referenced from: vs_clockwork:block/afterblazer/blaze_infuriated: java.io.FileNotFoundException: vs_clockwork:models/block/afterblazer/blaze_infuriated.json
+[12:35:31] [Worker-Main-7/WARN]: Unable to load model: 'vs_clockwork:block/afterblazer/plume_angry' referenced from: vs_clockwork:block/afterblazer/plume_angry: java.io.FileNotFoundException: vs_clockwork:models/block/afterblazer/plume_angry.json
+[12:35:31] [Worker-Main-7/WARN]: Unable to load model: 'vs_clockwork:block/afterblazer/plume_infuriated' referenced from: vs_clockwork:block/afterblazer/plume_infuriated: java.io.FileNotFoundException: vs_clockwork:models/block/afterblazer/plume_infuriated.json
+[12:35:31] [Worker-Main-7/WARN]: Unable to load model: 'vs_clockwork:block/boing' referenced from: vs_clockwork:block/boing: java.io.FileNotFoundException: vs_clockwork:models/block/boing.json
+[12:35:32] [Render thread/INFO]: Loaded AmbientEngine 'basic' v3.1.0. 11 dimension(s), 11 features, 11 blockgroups, 2 sound collections, 37 regions, 58 sounds, 11 sound categories, 5 solids and 2 biome types

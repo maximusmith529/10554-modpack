@@ -1,0 +1,22 @@
+{
+  "id": "Ancient-City_-2581-50-1551",
+  "name": "Ancient City",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--15438291-waypoint-icon.png",
+  "x": -2581,
+  "y": -50,
+  "z": -1551,
+  "r": 20,
+  "g": 110,
+  "b": 45,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

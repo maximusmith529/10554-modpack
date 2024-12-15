@@ -1,0 +1,22 @@
+{
+  "id": "Portal_-176-79-1184",
+  "name": "Portal",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--7994961-waypoint-icon.png",
+  "x": -176,
+  "y": 79,
+  "z": -1184,
+  "r": 134,
+  "g": 1,
+  "b": 175,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
